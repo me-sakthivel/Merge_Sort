@@ -1,6 +1,6 @@
 #include<iostream>
 
-int a[] = {10,9,8,7,6,5,4,3,2,1};
+int a[] = {10,9,8,7,6,5};
 //Merge Fnction
 void merge(int l,int m,int r)
 {
@@ -52,7 +52,7 @@ void merge_sort(int l,int r)
 int main()
 {
     //Merge Functions
-    merge_sort(0,9);
+    merge_sort(0,5);
     //After Merge
     for(int i = 0; i <5;i++)
     {
